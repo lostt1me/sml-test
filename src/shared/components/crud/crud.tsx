@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import MaterialTable, { Column } from 'material-table';
 import { useDispatch, useSelector } from 'react-redux';
 import { addCrudData, updateCrudData, deleteCrudData, getCrudData } from '../../../redux/actions/crud.actions';
-import { IStore } from '../../../redux/interfaces/store/interface';
+import { IStore } from '../../../redux/interfaces/store/store.interface';
 import { IBaseModel } from '../../interfaces/models/base.model';
 
 interface ICrudProps<T extends IBaseModel> {
